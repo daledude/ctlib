@@ -10,7 +10,7 @@ import (
 
 // Execute populates a Consul Template template string, equivalent to running the command:
 // `consul-template -template=<file containing the template string> -dry -once`
-func Execute(template string, discardStderr bool) (*string, error) {
+func Execute(template string) (*string, error) {
 
 	// overrides for never touching the filesystem
 	createDestDirs := false
