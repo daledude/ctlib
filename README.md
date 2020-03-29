@@ -2,6 +2,8 @@
 
 Consul Template hacked into a Go function
 
+`go get github.com/pbar1/ctlib`
+
 Execute populates a Consul Template template string, equivalent to running the command:
 
 ```sh
